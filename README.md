@@ -4,7 +4,7 @@ Projeto desenvolvido para te ajudar a lembrar o que é necessário levar em uma 
 
 ## Site
 
-<a href="">clique Aqui </a>
+<a href="https://otavio-magalhaes.github.io/Mochila-de-viagem/">clique Aqui </a>
 
 
 ## Preview
