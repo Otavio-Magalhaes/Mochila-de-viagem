@@ -6,6 +6,10 @@ Projeto desenvolvido para te ajudar a lembrar o que é necessário levar em uma 
 
 <a href="">clique Aqui </a>
 
+
+## Preview
+<img src="https://media.discordapp.net/attachments/660284137055191041/1023568272613965964/unknown.png?width=1023&height=473">
+
 ## Recursos utilizados
 
 * HTML
