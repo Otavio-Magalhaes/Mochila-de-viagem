@@ -1,0 +1,33 @@
+Como um formulário funciona enviando algo para a pagina e recarregando, eu preciso parar este comportamento com o ->
+evento.preventDefault()
+
+mas o que é esse evento? -> esse evento é o parametro passado dentro da arrowfunction é o que acontece dentro do submit, enviar todos os dados.
+ex:
+
+form.addEventListener("submit",(evento)=>{
+    evento.preventDefault()
+
+});
+
+
+para conseguir ver o que foi digitado nos campos do formulário tem que ser feito o acesso por esse evneto, ja que ele retorna todos os dados que estao sendo submetidos, entao fazemos desta meneira ->
+    evento.target.elements["nome"].value
+
+    .target ->  me retorna um array dos inputs e outros metodos/objetos;
+    .elements -> me retorna um array de objetos com os inputs/ me ajuda na hora da logica, caso eu precise criar mais inputs dentro do formulario
+    .value -> serve para eu pegar o valor que foi digitado no formulario
+
+    o codigo pronto fica da seguinte maneira:
+
+        form.addEventListener("submit",(evento)=>{
+            evento.preventDefault()
+            evento.target.elements["nome"].value
+            evento.target.elements["quantidade"].value
+        });
+
+
+// para setarmos as informações no localStorage, para que os itens não sumam quando recarregarmos a pagina utilizaremos o localStorage.setITem("chave", valor), o logalSotrage aceita 2 parametros, o primeiro é a chave do objeto e o segundo é o valor pra ser guardado dentro objeto referente a chave.
+
+JSON.stringify(varivavel) -> transforma qualquer coisa em formato JSON string;
+
+JSON.parse(varivavel) -> Converte novamente a objeto que era antes da stringify;
