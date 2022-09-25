@@ -1,6 +1,6 @@
 # Mochila de Viagem
 
-Projeto desenvolvido para te ajudar a lembrar o que é necessário levar em uma viage, aqui você pode adicionar, atualizar e remover seus itens de viagens para que você consiga se organizar da melhor maneira.
+Projeto desenvolvido para te ajudar a lembrar o que é necessário levar em uma viagem, aqui você pode adicionar, atualizar e remover seus itens de viagens para que você consiga se organizar da melhor forma.
 
 ## Site
 
